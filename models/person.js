@@ -19,7 +19,6 @@ const personSchema = new mongoose.Schema({
     number: String,
 })
 
-// const Person = mongoose.model("Person", PersonSchema, "persons")
 
 
 personSchema.set("toJSON", {
