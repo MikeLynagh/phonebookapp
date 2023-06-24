@@ -125,49 +125,6 @@ app.post("/api/persons", (request, response, next) => {
 
 
 
-// app.post("/api/persons", (request, response) => {
-
-//     const body = request.body
-
-//     if(!body.name){
-//         return response.status(400).json({
-//             error: "name missing"
-//         })
-//     } 
-
-
-//     if(!body.number){
-//         return response.status(400).json({
-//             error: "number must be included"
-//         })
-//     }
-
-//     if(persons.some((person) => person.name === body.name )){
-//         return response.status(400).json({
-//             error: "Name already exists in phonebook"
-//         })
-//     }
-
-
-
-//     const person = {
-//         name: body.name,
-//         number: body.number,
-//         id: randomNumber(100, 10000)
-//     }
-//     persons = persons.concat(person)
-
-//     // const person = request.body
-//     // person.id = randomNumber(100, 10000)
-//     response.json(person)
-// })
-
-// error handling if
-// name or no is missing
-//or 
-//name already exists in phonebook
-
-// {error: "name must be unique"}
 
 
 app.use(unknownEndpoint)
