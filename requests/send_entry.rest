@@ -3,6 +3,6 @@ Content-Type: application/json
 
 {
     "name": "Mike Lynagh",
-        "number":"098 5655656"
+        "number":"098-5655656"
 
 }
