@@ -12,7 +12,7 @@ Add a new name and phonename.
 
 The app is hosted on render. It is avaialable to view at the link below. 
 
-https://phonebook-backend-w2z6.onrender.com
+https://phonebook-backend-75us.onrender.com/
 
 Check out the short video below for a quick demonstration of this app. 
 
